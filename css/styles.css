@@ -1,0 +1,114 @@
+
+
+ :root{
+    --primary:#3dc1d3;
+    --dark: #161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#d9dcdf;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+
+}
+
+header{
+    background: black;
+    color:white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 89%, 0 100%);
+    height: 730px;
+}
+.flex{
+    display:flex;
+
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.hero{
+    padding: 4rem o;
+}
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+
+}
+header nav{
+    padding:2rem 0;
+}
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: var(--primary);
+    text-transform: uppercase;
+    
+}
+.btn:hover{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.hero .lefty img{
+    width: 400px;
+}
+.hero .righty{
+    color: var(--pure);
+}
+.hero .righty h5{
+    margin-left: 2rem;
+    font-size: 20px;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+ 
+}
+.hero .righty h1{
+    font-size: 40px;
+    font-weight: 120;
+    line-height: 1.2;
+    margin-bottom: 2.2rem;
+    margin-left: 2rem;
+    color: var(--primary);
+}
+.hero .righty h6{
+    font-size: 15px;
+    font-weight: 120;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    color: var(--primary);
+}
+.hero .righty p{
+    font-weight: 10;
+    margin-left: 2rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+.hero .righty{
+    margin-top: -6rem;
+}
+
+
+   
